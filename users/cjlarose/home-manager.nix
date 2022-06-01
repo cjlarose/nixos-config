@@ -205,11 +205,6 @@ let sources = import ../../nix/sources.nix; in {
     };
   };
 
-  programs.kitty = {
-    enable = true;
-    extraConfig = builtins.readFile ./kitty;
-  };
-
   programs.i3status = {
     enable = true;
 
