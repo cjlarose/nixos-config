@@ -9,9 +9,9 @@
     home = "/home/cjlarose";
     extraGroups = [ "docker" "wheel" ];
     shell = pkgs.fish;
-    hashedPassword = "$6$ka5KPFwZT2Z2HNTa$EqMm1FPldxkaOVKBUkcekJ9rqt/5hTine7I1K6JlxH49YJASSu5p6nfJSzwenbGo6m71T/pT2UdvW0E1ZYbgv/";
+    hashedPassword = "$6$YLrfXTwu61JGE.v8$kR5ZdMso2lcnyy7s7GXkIb.kLDyQ2UW3aDyGerQYni96g2kPC1MIY48Y9Q3SdYe2ycuVCrKgH6DlOjUUsK02s0";
     openssh.authorizedKeys.keys = [
-      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGFtA/9w60OssA+Eji+Ygvd1XCJk/zw/uYLdiiaevELu chris.larose@picktrace.com"
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGFtA/9w60OssA+Eji+Ygvd1XCJk/zw/uYLdiiaevELu cjlarose"
     ];
   };
 
